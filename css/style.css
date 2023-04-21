@@ -1,7 +1,65 @@
+.html {
+    box-sizing: border-box;
+    }
+    *, ::after, ::before {
+        box-sizing: inherit;
+    } 
 .body {
     font-family: "Arial", sans-serif;
+    background: rgb(235, 235, 235);
 }
-.button {
+.header {
+    text-align: center;
+    background: rgb(235, 235, 235);
+}
+.main {
+    border: 1px solid rgb(235, 235, 235);
+    background: white;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-width: 800px;
+}
+.main__addTask {
+    border: 1px solid rgb(235, 235, 235);
+    background: white;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    max-width: 800px;
+}
+.main__taskListHeader {
+    border: 1px solid rgb(235, 235, 235);
+    background: white;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-width: 800px;
+}
+.main__taskList {
+    border: 1px solid rgb(235, 235, 235);
+    background: white;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-width: 800px;
+}
+.taskFrame {
+ 
+    
+}
+.main__addTask--input {
+    max-width: 671px;
+    padding: 8px;
+
+}
+.addTaskButton {
     background-color: teal;
     color: white;
+    padding: 8px;
 }
+
